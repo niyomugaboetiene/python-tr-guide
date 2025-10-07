@@ -2,4 +2,7 @@ fruits = ["Apple", "Banana", "Chery", "Orange"]
 
 fruits.append("Mango")
 fruits.remove("Banana")
-print(fruits)
+fruits[3] = "Grape"
+
+for fruit in fruits:
+    print(fruit)
