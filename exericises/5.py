@@ -4,4 +4,4 @@ student = {
     "course": "Python"
 }
 
-print
+print(student["course"])
