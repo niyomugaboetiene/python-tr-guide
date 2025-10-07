@@ -5,3 +5,4 @@ student = {
 }
 
 print(student["course"])
+print(student)
