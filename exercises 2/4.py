@@ -1,3 +1,3 @@
-for num in range(20):
+for num in range(21):
     if num % 2 == 0:
         print(f"{num} is prime")
