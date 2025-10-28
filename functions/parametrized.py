@@ -6,3 +6,6 @@ def Greet():
 Greet()
 
 # parametrized function is function with parameters
+def Greets(name):
+    print(f"Hello {name}")
+Greets("Anna")
