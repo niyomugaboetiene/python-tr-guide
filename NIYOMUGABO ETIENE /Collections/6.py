@@ -11,6 +11,10 @@ print("Combined ", combination)
 
 # intersection
 intersection = num1.intersection(num2)
+
+# methood 2
+intersect = num1 & num2
+print("Intersection", intersect)
 print("Intersection", intersection)
 
 # difference
