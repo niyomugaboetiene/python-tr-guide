@@ -1,3 +1,4 @@
+# Combine two dictionaries using ChainMap.
 from collections import ChainMap
 
 dict1 = {
