@@ -1,7 +1,8 @@
-factorial = 1
-number = int()
 def Factorial(num):
-    for n in num + 1:
+    factorial = 1
+    for n in range(1, num + 1):
         factorial *= n
+    return factorial
 
-
+number = int(input("Enter number to caliculate factorial: "))
+print(Factorial(number))
