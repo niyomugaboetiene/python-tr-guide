@@ -12,4 +12,8 @@
 nums = [1, 3, 5, 7, 10, 40, 60, 100, 120, 110]
 # ascending
 ascending = sorted(nums)
-print(ascending)
+print("Ascending", ascending)
+
+# descending 
+descending = sorted(nums, reverse=True)
+print("Descending", descending)
