@@ -9,3 +9,6 @@ comb = num1 | num2
 print("Combined ", comb)
 print("Combined ", combination)
 
+# intersection
+intersection = num1.intersection(num2)
+print("Intersection", intersection)
