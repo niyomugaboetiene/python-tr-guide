@@ -1,5 +1,5 @@
 class Person:
-    gender =  "Gender"
+    gender =  "Male"
     name = "Etiene"
 
     def PersonDetails(self):
