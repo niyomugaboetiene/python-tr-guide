@@ -19,8 +19,8 @@ class Student:
     age = 20
 
     def StudentDetails(self):
-        print("Gender", self.course)
-        print("Name", self.age)
+        print("Course", self.course)
+        print("Age", self.age)
 
 class PersonInfo(Student, Employee):
       pass
