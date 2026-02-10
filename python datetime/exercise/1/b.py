@@ -7,6 +7,6 @@ day = int(input("Enter your birth day: (DD)"))
 birth_date = date(year, month, day)
 today = date.today()
 
-age = today.year - birth_date
+age = today.year - birth_date.year
 
 print(f"Your age {age} years old")
