@@ -11,3 +11,9 @@ today = date.today()
 
 if dates > today:
     print("You are in future date")
+
+if date < today:
+    print("You are in the past")
+
+else:
+    print("This date is today")
