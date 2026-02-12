@@ -1,5 +1,5 @@
 # Write a program to check if a given date is in the past or future.
-from datetime import datetime, date
+from datetime import date
 
 year = int(input("Enter year (YYYY): "))
 month = int(input("Enter month (MM): "))
@@ -12,8 +12,8 @@ today = date.today()
 if dates > today:
     print("You are in future date")
 
-if date < today:
+if dates < today:
     print("You are in the past")
 
-else:
+if dates == today:
     print("This date is today")
