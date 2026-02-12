@@ -1,6 +1,6 @@
 from datetime import datetime
 
-date = "2025-02-10"
+date = datetime.today()
 
 formatted_date = datetime.strptime(date, "%d-%m-%Y")
 print(formatted_date)
