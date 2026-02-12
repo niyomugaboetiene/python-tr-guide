@@ -2,5 +2,5 @@ from datetime import datetime
 
 date = datetime.today()
 
-formatted_date = datetime.strptime(date, "%d-%m-%Y")
+formatted_date = datetime.strftime(date, "%d-%m-%Y")
 print(formatted_date)
