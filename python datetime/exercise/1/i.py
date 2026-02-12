@@ -6,7 +6,7 @@ start_time = datetime.now()
 
 # program starts
 
-time.sleep(3) # 3 secs
+time.sleep(3) # pause 3 secs without doing anything
 
 # program ends
 
