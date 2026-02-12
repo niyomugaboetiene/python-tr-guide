@@ -1,3 +1,4 @@
+# Format the current date as DD/MM/YYYY.
 from datetime import datetime
 
 date = datetime.today()
