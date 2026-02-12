@@ -1,5 +1,5 @@
 # Create a countdown timer showing days remaining to an exam date.
-from datetime import date, datetime
+from datetime import date
 
 exam_date = date(2026,3,10)
 
